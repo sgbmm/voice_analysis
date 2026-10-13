@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Дебаг текущего файла как модуля",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",          // Запуск по прямому пути
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}" // Самый важный душный хак: корень проекта теперь виден всем импортам
+            }
+        }
+    ]
+}
