@@ -56,4 +56,4 @@ python main.py
 * `PreprocessedAudio` — очищенный бинарный поток.
 * `AcousticFeatures` — математическая матрица признаков для ИИ-моделей.
 * `AnalysisResult` — унифицированный формат ответа (Текст, ID спикера, Эмоция, Confidence).
-test
+test1
